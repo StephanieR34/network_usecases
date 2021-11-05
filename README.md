@@ -60,10 +60,10 @@ Configuration/réseau/internal network
 
 		auto enp0s8
 		iface enp0s8 inet static
-		    address 10.0.1.0.1
+		    address 10.0.1.1
 		    netmask 255.255.255.0
 		    network 10.0.1.0
-		    broadcast 10.0.1.0.1
+		    broadcast 10.0.1.1
 
 ### Ajout de règles dans iptables  (et les rendre persistantes)
   - Décommenter la ligne `net.ipv4.ip_forward=1 dans etc/sysctl.conf`
